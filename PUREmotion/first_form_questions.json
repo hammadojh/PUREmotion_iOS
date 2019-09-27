@@ -1,0 +1,260 @@
+[
+    {
+        "id":"peronal",
+        "title":"Peronal Information",
+        "headline":"Please answer the following questions on household and personal information",
+        "questions":[
+            {
+                "question":"What is you first name?",
+                "type":"text",
+                "placeholder":"first name..",
+                "selections":[]
+            },
+            {
+                "question":"What is your last name?",
+                "type":"text",
+                "placeholder":"last name..",
+                "selections":[]
+            },
+            {
+                "question":"What is your Address Line 1?",
+                "type":"text",
+                "placeholder":"Address line 1..",
+                "selections":[]
+            },
+            {
+                "question":"What is Address Line 2?",
+                "type":"text",
+                "placeholder":"(Optional) Write your address line 2",
+                "selections":[]
+            },
+            {
+                "question":"What City do you live in?",
+                "type":"text",
+                "placeholder":"City",
+                "selections":[]
+            },
+            {
+                "question":"What is your Zip code",
+                "type":"number",
+                "placeholder":"zip code..",
+                "selections":[]
+            },
+            {
+                "question":"What is your relationship with the household head?",
+                "placeholder":"Relationship",
+                "type":"picker",
+                "selections":[
+                    "Self","Dependent","Partner","Other"
+                ]
+            },
+            {
+                "question":"What is your Sex?",
+                "placeholder":"(Optional) Sex",
+                "type":"picker",
+                "selections":[
+                    "Male","Female","Other"
+                ]
+            },
+            {
+                "question":"What year were you born in?",
+                "placeholder":"Year of birth",
+                "type":"picker",
+                "selections":[
+                    "generate"
+                ]
+            },
+            {
+                "question":"What is your martial status?",
+                "placeholder":"Martial Status",
+                "type":"picker",
+                "selections":[
+                    "Married","Single"
+                ]
+            },
+            {
+                "question":"What is your highest education degree",
+                "placeholder":"Highest Degree",
+                "type":"picker",
+                "selections":[
+                    "Less than high school","High school","College","Graduate Degree"
+                ]
+            },
+            {
+                "question":"Are you crrently employed?",
+                "placeholder":"No",
+                "type":"toggle",
+                "selections":[]
+            },
+            {
+                "question":"What race do you consider yourself?",
+                "placeholder":"Race",
+                "type":"picker",
+                "selections":[
+                    "American Indian or Alaska Native","Asian","Black or African American","Hispanic or Latino","Native Hawaiian or Other Pacific Islander","White","Prefer not to disclose"
+                ]
+            }
+        ]
+    },
+    {
+        "id":"home",
+        "title":"Home Information",
+        "headline":"Please answer the following questions on your home information",
+        "questions":[
+            {
+                "question":"What year was you home built?",
+                "type":"picker",
+                "placeholder":"Year home built",
+                "selections":["generate"]
+            },
+            {
+                "question":"What is your home area in square feet?",
+                "type":"text",
+                "placeholder":"Home area..",
+                "selections":[]
+            },
+            {
+                "question":"How many pets do you have?",
+                "type":"number",
+                "placeholder":"Number of pets..",
+                "selections":[]
+            },
+            {
+                "question":"How long have you lived here?",
+                "type":"picker",
+                "placeholder":"Lived",
+                "selections":["One year or less","Two years","Three years","Four years or more"]
+            },
+            {
+                "question":"In what type of home are you living?",
+                "type":"picker",
+                "placeholder":"Type of home",
+                "selections":["Apartment","Hometown","Other"]
+            }
+        ]
+    },
+    {
+        "id":"ventilation",
+        "title":"Ventilation Information",
+        "headline":"Please answer the following questions on home ventilation and air conditioning",
+        "questions":[
+            {
+                "question":"What is your home heating system?",
+                "type":"picker",
+                "placeholder":"Heating system",
+                "selections":["Forced air heating","Baseboard heating","Other"]
+            },
+            {
+                "question":"What is you home cooling system?",
+                "type":"picker",
+                "placeholder":"Cooling system",
+                "selections":["Forced air cooling","Window air conditioning","Other"]
+            },
+            {
+                "question":"What is you air handeling unit (AHU) filteration system?",
+                "type":"picker",
+                "placeholder":"Filteration system",
+                "selections":["Standard","Electrically enhanced","Other(Specify)","Filter Specification,if available"]
+            },
+            {
+                "question":"What is your furnace/heating system?",
+                "type":"picker",
+                "placeholder":"Furnace system (duplicated?)",
+                "selections":["Gas","Electric","Other"]
+            },
+            {
+                "question":"What is your most common ventilation practice during summer?",
+                "type":"picker",
+                "placeholder":"Summer ventilation practice",
+                "selections":["Opening window","Running exhaust fans","None","Other","I don't know"]
+            },
+            {
+                "question":"What is your most common ventilation practice during winter?",
+                "type":"picker",
+                "placeholder":"Winter ventilation practice",
+                "selections":["Opening window","Running exhaust fans","None","Other","I don't know"]
+            },
+            {
+                "question":"How often are the windows open in any given day?",
+                "type":"picker",
+                "placeholder":"Windows open",
+                "selections":["Day and night during summers and totally closed during winters","very often(more than 6 hours)","Not very often(less than 1 hour)","Depends from room to room","I don't know"]
+            },
+            {
+                "question":"How often are the kitchen/bathroom exhaust fans used?",
+                "type":"picker",
+                "placeholder":"Exhaust fans use",
+                "selections":["With each use","Sometimes,not always","Never","Other(Specify)"]
+            },
+            {
+                "question":"Do you use kerosene heaters/ovens to heat the home?",
+                "type":"picker",
+                "placeholder":"No",
+                "selections":[]
+            },
+            {
+                "question":"Do you have a radon mitigation system in your home?",
+                "type":"picker",
+                "placeholder":"No",
+                "selections":[]
+            }
+        ]
+    },
+    {
+        "id":"wellbeing",
+        "title":"Wellbeing Information",
+        "headline":"Please answer the following questions on your overall well-being",
+        "questions":[
+            {
+                "question":"Do you think that the air is fresh in your home?",
+                "type":"toggle",
+                "placeholder":"No",
+                "selections":[]
+            },
+            {
+                "question":"How satisfied are you with how your life has turned out so far?",
+                "type":"picker",
+                "placeholder":"Satisfaction of life",
+                "selections":["Extremely Satisfied","Satisfied","Neutral","Dissatisfied","Extremely Dissatisfied"]
+            },
+            {
+                "question":"Taking all things together, how happy would you say you are?",
+                "type":"picker",
+                "placeholder":"Satisfaction of happiness",
+                "selections":["Extremely Satisfied","Satisfied","Neutral","Dissatisfied","Extremely Dissatisfied"]
+            },
+            {
+                "question":"How satisfied are you with your present standard of living?",
+                "type":"picker",
+                "placeholder":"Satisfaction of your life standards",
+                "selections":["Extremely Satisfied","Satisfied","Neutral","Dissatisfied","Extremely Dissatisfied"]
+            },
+            {
+                "question":"Do you have concerns about the potential impacts due to the pollutionor adverse effects caused by the construction outside your home?",
+                "type":"picker",
+                "placeholder":"I have concerns",
+                "selections":["Extremely Agree","Agree","Neutral","Disagree","Extremely Disagree"]
+            },
+            {
+                "question":"How much do you feel connected to your community?",
+                "type":"picker",
+                "placeholder":"I feel connected",
+                "selections":["Extremely Agree","Agree","Neutral","Disagree","Extremely Disagree"]
+            },
+            {
+                "question":"How often do you feel helpless?",
+                "type":"picker",
+                "placeholder":"I feel helpless",
+                "selections":["Always","Often","Sometimes","Not Very Often","Never"]
+            },
+            {
+                "question":"Have you been diagnosed with asthma?",
+                "type":"toggle",
+                "placeholder":"No",
+                "selections":[]
+            }
+        ]
+    }
+]
+ 
+ 
